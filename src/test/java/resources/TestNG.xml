@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Exercises WEB Tests"  >
+
+    <test name="Tests">
+        <classes>
+            <class name="tests.RegisterUserTest"/>
+            <class name="tests.SearchProduct"/>
+            <class name="tests.PlaceOrderTest"/>
+            <class name="tests.ScrollUpScrollDownTest"/>
+        </classes>
+    </test>
+</suite>
